@@ -1,10 +1,10 @@
 <?php
 
-namespace hscstudio\mimin\components;
+namespace agusedyc\mimin\components;
 
 use Yii;
 use yii\helpers\ArrayHelper;
-use hscstudio\mimin\models\AuthItem;
+use agusedyc\mimin\models\AuthItem;
 
 /**
  * @author Hafid Mukhlasin <hafidmukhlasin@gmail.com>

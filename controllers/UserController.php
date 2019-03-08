@@ -1,12 +1,12 @@
 <?php
 
-namespace hscstudio\mimin\controllers;
+namespace agusedyc\mimin\controllers;
 
 use Yii;
-use hscstudio\mimin\models\User;
-use hscstudio\mimin\models\AuthAssignment;
-use hscstudio\mimin\models\AuthItem;
-use hscstudio\mimin\models\UserSearch;
+use agusedyc\mimin\models\User;
+use agusedyc\mimin\models\AuthAssignment;
+use agusedyc\mimin\models\AuthItem;
+use agusedyc\mimin\models\UserSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

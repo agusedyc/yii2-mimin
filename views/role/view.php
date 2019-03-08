@@ -2,11 +2,11 @@
 
 use yii\helpers\Html;
 use yii\widgets\DetailView;
-use hscstudio\mimin\models\Route;
+use agusedyc\mimin\models\Route;
 use yii\helpers\Url;
 
 /* @var $this yii\web\View */
-/* @var $model hscstudio\mimin\models\AuthItem */
+/* @var $model agusedyc\mimin\models\AuthItem */
 
 $this->title = $model->name;
 $this->params['breadcrumbs'][] = ['label' => 'Roles', 'url' => ['index']];

@@ -2,7 +2,7 @@ Yii2 Mimin
 ===============
 Simple RBAC Manager fo Yii 2.0. Minify of [yii2-admin](https://github.com/mdmsoft/yii2-admin) extension with awesome features
 
-[![Latest Stable Version](https://poser.pugx.org/hscstudio/yii2-mimin/v/stable)](https://packagist.org/packages/hscstudio/yii2-mimin) [![Total Downloads](https://poser.pugx.org/hscstudio/yii2-mimin/downloads)](https://packagist.org/packages/hscstudio/yii2-mimin) [![Latest Unstable Version](https://poser.pugx.org/hscstudio/yii2-mimin/v/unstable)](https://packagist.org/packages/hscstudio/yii2-mimin) [![License](https://poser.pugx.org/hscstudio/yii2-mimin/license)](https://packagist.org/packages/hscstudio/yii2-mimin)
+[![Latest Stable Version](https://poser.pugx.org/agusedyc/yii2-mimin/v/stable)](https://packagist.org/packages/agusedyc/yii2-mimin) [![Total Downloads](https://poser.pugx.org/agusedyc/yii2-mimin/downloads)](https://packagist.org/packages/agusedyc/yii2-mimin) [![Latest Unstable Version](https://poser.pugx.org/agusedyc/yii2-mimin/v/unstable)](https://packagist.org/packages/agusedyc/yii2-mimin) [![License](https://poser.pugx.org/agusedyc/yii2-mimin/license)](https://packagist.org/packages/agusedyc/yii2-mimin)
 
 Attention
 ---------
@@ -16,19 +16,19 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist hscstudio/yii2-mimin "~1.1.4"
+php composer.phar require --prefer-dist agusedyc/yii2-mimin "~1.1.4"
 ```
 
 or add
 
 ```
-"hscstudio/yii2-mimin": "~1.1.4"
+"agusedyc/yii2-mimin": "~1.1.4"
 ```
 
 or add this for install last change
 
 ```
-"hscstudio/yii2-mimin": "~1.*"
+"agusedyc/yii2-mimin": "~1.*"
 ```
 
 to the require section of your `composer.json` file.
@@ -42,7 +42,7 @@ Once the extension is installed, simply use it in your code by  :
 in config
 ```php
 'as access' => [
-     'class' => '\hscstudio\mimin\components\AccessControl',
+     'class' => '\agusedyc\mimin\components\AccessControl',
 	 'allowActions' => [
 		// add wildcard allowed action here!
 		'site/*',
@@ -53,7 +53,7 @@ in config
 ...,
 'modules' => [
 	'mimin' => [
-		'class' => '\hscstudio\mimin\Module',
+		'class' => '\agusedyc\mimin\Module',
 	],
 	...
 ],
@@ -70,11 +70,11 @@ Because this extension use 'yii\rbac\DbManager'as authManager, so You should mig
 
 If You use Yii 2.0.6 version or newer, so then migrate custom table for this extension
 
-```yii migrate --migrationPath=@hscstudio/mimin/migrations```
+```yii migrate --migrationPath=@agusedyc/mimin/migrations```
 
 But if You install Yii 2.0.5 version or older, so then migrate custom table for this extension
 
-```yii migrate --migrationPath=@hscstudio/mimin/migrations/old```
+```yii migrate --migrationPath=@agusedyc/mimin/migrations/old```
 
 Usage
 -----
@@ -123,7 +123,7 @@ if ((Mimin::checkRoute($this->context->id.'/create',true))){
 ### Example dynamic menu
 It is is used for filtering right access menu
 ```php
-use hscstudio\mimin\components\Mimin;
+use agusedyc\mimin\components\Mimin;
 $menuItems = [
     ['label' => 'Home', 'url' => ['/site/index']],
     ['label' => 'About', 'url' => ['/site/about']],
@@ -158,7 +158,7 @@ echo Nav::widget([
 ### Example dynamic action column template
 It is used for filtering template of Gridview Action Column
 ```php
-use hscstudio\mimin\components\Mimin;
+use agusedyc\mimin\components\Mimin;
 echo GridView::widget([
     'dataProvider' => $dataProvider,
     'filterModel' => $searchModel,
@@ -184,15 +184,15 @@ In order to get started:
 - Install this in your local (read installation section)
 - Clone this repository.
 - Check [README.md](README.md).
-- Send [pull requests](https://github.com/hscstudio/yii2-mimin/pulls).
+- Send [pull requests](https://github.com/agusedyc/yii2-mimin/pulls).
 
-Aside from contributing via pull requests you may [submit issues](https://github.com/hscstudio/yii2-mimin/issues).
+Aside from contributing via pull requests you may [submit issues](https://github.com/agusedyc/yii2-mimin/issues).
 
 ## Our Team
 
 - [Hafid Mukhlasin](http://www.hafidmukhlasin.com) - Project Leader / Indonesian Yii developer.
 
-We'd like to thank our [contributors](https://github.com/hscstudio/yii2-mimin/graphs/contributors) for improving
+We'd like to thank our [contributors](https://github.com/agusedyc/yii2-mimin/graphs/contributors) for improving
 this tools. Thank you!
 
 Jakarta - Indonesia
@@ -200,4 +200,4 @@ Jakarta - Indonesia
 ## Buku Panduan
 
 Tutorial tentang dasar-dasar RBAC atau access controll di Yii 2 dan panduan yii2-mimin dibahas secara komprehensif di buku saya ini
-https://hscstudio.github.io/yii2-book-id
+https://agusedyc.github.io/yii2-book-id

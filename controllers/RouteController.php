@@ -1,16 +1,16 @@
 <?php
 
-namespace hscstudio\mimin\controllers;
+namespace agusedyc\mimin\controllers;
 
 use Yii;
-use hscstudio\mimin\models\Route;
-use hscstudio\mimin\models\RouteSearch;
+use agusedyc\mimin\models\Route;
+use agusedyc\mimin\models\RouteSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 
-use hscstudio\mimin\components\Configs;
+use agusedyc\mimin\components\Configs;
 use yii\helpers\Inflector;
 use yii\helpers\VarDumper;
 use yii\caching\TagDependency;

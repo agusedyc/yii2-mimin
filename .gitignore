@@ -17,3 +17,6 @@ composer.phar
 
 # Mac DS_Store Files
 .DS_Store
+*.sublime-project
+
+*.sublime-workspace

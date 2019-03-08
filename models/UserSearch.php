@@ -1,14 +1,14 @@
 <?php
 
-namespace hscstudio\mimin\models;
+namespace agusedyc\mimin\models;
 
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use hscstudio\mimin\models\User;
+use agusedyc\mimin\models\User;
 
 /**
- * UserSearch represents the model behind the search form about `hscstudio\mimin\models\User`.
+ * UserSearch represents the model behind the search form about `agusedyc\mimin\models\User`.
  */
 class UserSearch extends User
 {

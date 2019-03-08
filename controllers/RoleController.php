@@ -1,10 +1,10 @@
 <?php
 
-namespace hscstudio\mimin\controllers;
+namespace agusedyc\mimin\controllers;
 
 use Yii;
-use hscstudio\mimin\models\AuthItem;
-use hscstudio\mimin\models\AuthItemSearch;
+use agusedyc\mimin\models\AuthItem;
+use agusedyc\mimin\models\AuthItemSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;

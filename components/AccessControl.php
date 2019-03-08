@@ -1,6 +1,6 @@
 <?php
 
-namespace hscstudio\mimin\components;
+namespace agusedyc\mimin\components;
 
 use yii\web\ForbiddenHttpException;
 use yii\base\Module;

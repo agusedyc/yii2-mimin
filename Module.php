@@ -1,17 +1,17 @@
 <?php
 
-namespace hscstudio\mimin;
+namespace agusedyc\mimin;
 
 /**
  * Class Module
- * @package hscstudio\mimin
+ * @package agusedyc\mimin
  */
 class Module extends \yii\base\Module
 {
 	/**
      * @var string
      */
-    public $controllerNamespace = 'hscstudio\mimin\controllers';
+    public $controllerNamespace = 'agusedyc\mimin\controllers';
 
 	/**
      *
