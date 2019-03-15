@@ -200,4 +200,4 @@ Jakarta - Indonesia
 ## Buku Panduan
 
 Tutorial tentang dasar-dasar RBAC atau access controll di Yii 2 dan panduan yii2-mimin dibahas secara komprehensif di buku saya ini
-https://agusedyc.github.io/yii2-book-id
+https://hscstudio.github.io/yii2-book-id
