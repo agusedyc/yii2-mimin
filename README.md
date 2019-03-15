@@ -22,7 +22,7 @@ php composer.phar require --prefer-dist agusedyc/yii2-mimin "~1.1.4"
 or add
 
 ```
-"agusedyc/yii2-mimin": "~1.1.4"
+"agusedyc/yii2-mimin": "~1.1.5"
 ```
 
 or add this for install last change
